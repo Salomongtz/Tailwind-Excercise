@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <header class="flex flex-row justify-between px-6 py-2">
+    <header class="flex flex-row justify-between
+    items-center px-6 py-2 lg:px-16">
         <img alt="Odin Logo" class="block lg:hidden h-12 w-auto" src="./assets/images/logo.svg">
         <svg xmlns="http://www.w3.org/2000/svg" width="205" height="59" viewBox="0 0 205 59" fill="none" role="img"
             aria-labelledby="ajk7p9d17n3xkv05lqzi002y9ffmfoq"
@@ -51,26 +52,29 @@
                 fill="currentColor"></path>
         </svg>
 
-        <nav class="gap-9 hidden md:flex">
-            <a href="https://www.theodinproject.com/paths">All Paths</a>
-            <a href="https://www.theodinproject.com/paths">All Paths</a>
-            <a href="https://www.theodinproject.com/about">About</a>
-            <a href="https://www.theodinproject.com/support_us">Support Us</a>
+        <nav class="gap-9 hidden md:flex items-center text-gray-500 font-medium">
+            <a href="https://www.theodinproject.com/paths" class="hover:border-solid hover:border-2">All Paths</a>
+            <a href="https://www.theodinproject.com/about"class="hover:border-solid hover:border-2">About</a>
+            <a href="https://www.theodinproject.com/support_us"class="hover:border-solid hover:border-2">Support Us</a>
             <a href="https://discord.gg/fbFCkYabZB">Community</a>
+            <a href="https://www.theodinproject.com/sign_in">Sign in</a>
+            <a href="https://www.theodinproject.com/sign_up" class="text-white bg-[#115E59] border-2 rounded-md p-2">Get
+                Started</a>
         </nav>
+        <img alt="Hamburger Menu" class="block md:hidden h-12 w-auto" src="./assets/images/Hamburger_icon.svg">
     </header>
     <main class="text-center">
-        <div class="max-w-4xl mx-auto md:pt-16">
+        <div class=" mx-4 lg:mx-auto lg:pt-16">
             <h1 class="text-4xl md:text-6xl text-gray-700 font-medium mx-auto pb-6 tracking-tighter">
                 Your <span class="text-yellow-600">Career in Web Development</span> <span
                     class="block font-medium">Starts Here</span>
             </h1>
-            <div class="text-gray-600 pb-8 mx-2">
-                <p class="mb-4 text-xl text-gray-500">Our full stack curriculum is free and supported by a passionate
-                    open source community.</p>
-            </div>
-            <a class="text-gray-700 border-2 rounded-md p-4" href="https://www.theodinproject.com/paths">View Full
-                Curriculum</a>
+            <p class="mb-16 lg:mx-32 text-xl text-gray-500">Our full stack curriculum is free and supported by a
+                passionate
+                open source community.</p>
+        </div>
+        <a class="text-gray-700 border-2 rounded-md p-4" href="https://www.theodinproject.com/paths">View Full
+            Curriculum</a>
         </div>
         <img src="./assets/images/banner.svg" alt="home-page-banner" class="my-16">
     </main>
